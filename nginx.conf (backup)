@@ -1,0 +1,14 @@
+server {
+    listen 80;
+    server_name yourdomain.com;
+
+    location / {
+        root /var/www/html;
+        index index.html;
+    }
+
+    location /api {
+        default_type application/json;
+        return 200 '{"message":"HNGI14 Stage 0","track":"DevOps","username":"your-hng-username"}';
+    }
+}
