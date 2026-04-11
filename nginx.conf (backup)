@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name yourdomain.com;
+    server_name http://hngstage0.ddns.net/;
 
     location / {
         root /var/www/html;
@@ -9,6 +9,6 @@ server {
 
     location /api {
         default_type application/json;
-        return 200 '{"message":"HNGI14 Stage 0","track":"DevOps","username":"your-hng-username"}';
+        return 200 '{"message":"HNGI14 Stage 0","track":"DevOps","username":"Adesco"}';
     }
 }
