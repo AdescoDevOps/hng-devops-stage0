@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name http://hngstage0.ddns.net/;
+    server_name https://hngstage.ddns.net/api;
 
     location / {
         root /var/www/html;
