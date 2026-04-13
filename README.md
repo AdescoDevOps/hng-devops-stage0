@@ -13,4 +13,4 @@ DEVOPS TRACK - STAGE 0 Task: Linux Server Setup &amp; Nginx Configuration
 - /api → JSON response
 
 ## Live URL
-https://hngstage0.ddns.net
+https://hngstage.ddns.net/api
